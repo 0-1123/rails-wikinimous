@@ -13,3 +13,45 @@
  *= require_tree .
  *= require_self
  */
+.container {
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.navbar {
+  margin: 0;
+  background: rgb(240,240,240);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-link a {
+  color: black;
+  font-size: 20px;
+}
+
+h2 a {
+  font-size: 24px;
+  color: rgb(100,100,100);
+}
+
+h2 a:hover {
+  color: black;
+}
+
+.delete a {
+  color: rgb(160,160,160);
+}
+
+.delete a:hover {
+  color: rgb(100,100,100);
+}
+
+.btn a {
+  color: white;
+}
