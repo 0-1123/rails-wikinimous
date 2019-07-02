@@ -28,6 +28,23 @@ a:hover {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 0;
+  border: 0;
+  width: 100vw;
+}
+
+.left {
+  display: flex;
+  width: 50vw;
+  justify-content: flex-start;
+  margin-left: 20px;
+}
+
+.right {
+  display: flex;
+  width: 50vw;
+  justify-content: flex-end;
+  margin-right: 30px;
 }
 
 .nav-link a {
